@@ -11,7 +11,7 @@ jobs:
         node_version: [16.x, 20.x] # Use Node.js 16 and 20
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v3
